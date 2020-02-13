@@ -1,0 +1,25 @@
+{
+    "name": "marvinsoriano/abstract_factory_pattern_php",
+    "description": "Example of an implementation of Abstract Factory Pattern in PHP",
+    "type": "project",
+    "require": {
+        "phpunit/phpunit": "^8.5"
+    },
+    "license": "GNU",
+    "authors": [
+        {
+            "name": "Marvin Soriano",
+            "email": "marvin.soriano@promocionesfarma.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "MarvinSoriano\\AbstractFactoryPatternPHP\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "MarvinSoriano\\AbstractFactoryPatternPHP\\Tests\\": "tests/"
+        }
+    }
+}
